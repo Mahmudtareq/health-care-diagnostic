@@ -2,7 +2,6 @@ import React from 'react';
 import './AboutUs.css';
 import { Accordion, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Header from '../../Shared/Header/Header';
 import about2 from '../../../image/about/about2.jpg';
 import about4 from '../../../image/about/about4.jpg';
 import about5 from '../../../image/about/about5.jpg';
@@ -11,9 +10,8 @@ import about6 from '../../../image/about/about6.jpg';
 const AboutUs = () => {
     return (
         <>
-
             <div>
-                <Header></Header>
+
             </div>
 
             <div className="about-section p-4">
