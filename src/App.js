@@ -6,6 +6,8 @@ function App() {
     <div className="App">
       <h2>This is a first page</h2>
       <h2>some change is there </h2>
+      <h2>some change is there </h2>
+      <h2>some change is there </h2>
 
 
 
