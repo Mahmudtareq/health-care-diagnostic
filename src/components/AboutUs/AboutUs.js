@@ -2,17 +2,16 @@ import React from 'react';
 import './AboutUs.css';
 import { Accordion, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import about2 from '../../../image/about/about2.jpg';
-import about4 from '../../../image/about/about4.jpg';
-import about5 from '../../../image/about/about5.jpg';
-import about6 from '../../../image/about/about6.jpg';
+
+import about2 from '../../image/about/about2.jpg'
+// import about3 from '../../image/about/about3.jpg'
+import about4 from '../../image/about/about4.jpg'
+import about5 from '../../image/about/about5.jpg'
+import about6 from '../../image/about/about6.jpg'
 
 const AboutUs = () => {
     return (
         <>
-            <div>
-
-            </div>
 
             <div className="about-section p-4">
                 <h1>About Us</h1>

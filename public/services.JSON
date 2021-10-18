@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dental Department",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/P1PNzd0/Dentist-is-treating-male-patient-which-is-sitting-in-dental-chair.jpg"
+    },
+    {
+        "name": "Cardiology",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/p41QqXF/patient-getting-heart-rate-monitored-with-electrocardiogram-equipment-cardiogram-test-Close-up-Of-Ec.jpg"
+    },
+    {
+        "name": "Eye Department",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/mF70CHx/Attractive-female-doctor-ophthalmologist-is-checking-the-eye-vision-of-handsome-young-man-in-modern.jpg"
+    },
+    {
+        "name": "\tNeurology Department",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/khh8pZy/At-doctors-appointment-physician-shows-to-patient-shape-of-brain-with-focus-on-hand-with-organ-Scene.jpg"
+    },
+    {
+        "name": "X-Ray Department",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/WHRHd7X/Doctor-dentist-showing-patient-s-teeth-on-X-ray.jpg"
+    },
+    {
+        "name": "Surgery Department",
+        "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+        "img": "https://i.ibb.co/C91QQ2k/Doctor-performing-eye-surgery-in-modern-clinic.jpg"
+    }
+]
