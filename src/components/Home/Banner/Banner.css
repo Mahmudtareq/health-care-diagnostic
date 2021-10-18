@@ -1,0 +1,13 @@
+.my-btn{
+    border-radius: 20px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid green;
+}
+.my-btn:hover{
+    background-color: dodgerblue;
+}

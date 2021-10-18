@@ -1,0 +1,14 @@
+.about-section{
+    background-image: url("../../../image/about/about.jpg");
+    background-position: center;
+    background-size: 100vh;
+    width:100%;
+    background-position: 100%;
+   
+}
+.text-section{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+
+}
