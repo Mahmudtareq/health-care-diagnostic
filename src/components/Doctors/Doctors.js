@@ -9,9 +9,9 @@ const Doctors = () => {
             .then(data => setDoctors(data))
     }, [])
     return (
-        <div className="container-fluid">
+        <div className="">
 
-            <div className="doctor-container">
+            <div className=" doctor-container">
                 {
                     doctors.map(item => <Doctor
                         item={item}
