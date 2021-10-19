@@ -10,6 +10,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import NotFound from './components/NotFound/NotFound';
 import OurServices from './components/OurServices/OurServices';
 import OurDoctor from './components/OurDoctor/OurDoctor';
+import ContactUs from './components/ContactUs/ContactUs';
 
 
 function App() {
@@ -28,9 +29,13 @@ function App() {
             <Route exact path="/aboutus">
               <AboutUs></AboutUs>
             </Route>
-            <Route path="/ourservices">
+            <Route exact path="/ourservices/:id">
               <OurServices></OurServices>
             </Route>
+            <Route path="/contact">
+              <ContactUs></ContactUs>
+            </Route>
+
             <Route path="/login">
               <Login></Login>
             </Route>

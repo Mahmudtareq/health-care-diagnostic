@@ -22,7 +22,7 @@ const Header = () => {
                     <Navbar.Collapse className="justify-content-end">
                         <Nav.Link as={Link} to="/home">Home</Nav.Link>
                         <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
-                        <Nav.Link as={Link} to="/ourservices">OurServices</Nav.Link>
+                        <Nav.Link as={Link} to="/contact">Contact Us</Nav.Link>
                         <Nav.Link as={Link} to="/doctor">Doctor</Nav.Link>
                         {user.email ?
                             <button onClick={logOut} className="btn btn-info">Logout</button> :

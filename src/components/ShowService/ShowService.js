@@ -1,9 +1,12 @@
 import React from 'react';
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
+// import { useParams } from 'react-router';
 import './ShowService.css';
 
 const ShowService = (props) => {
-    const { name, details, img } = props.service;
+    const { name, details, img, id } = props.service;
+    // const { serviceId } = useParams();
     // console.log(props.service)
     return (
         <div className="container">
@@ -11,12 +14,23 @@ const ShowService = (props) => {
                 <Card.Img variant="top" className="img-fluid" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
+                    <Card.Title>Id Num:{id}</Card.Title>
                     <Card.Text>
                         {details}
                     </Card.Text>
                 </Card.Body>
                 <div className="my-2">
-                    <button className="btn btn-outline-success ">Details   {name}</button>
+
+
+                    <NavLink className="btn btn-outline-success " to={`/ourservices/${id}`}
+                        activeStyle={{
+                            fontWeight: "bold",
+                            color: "red",
+                        }}
+
+                    >
+                        Details {name}</NavLink>
+
 
                 </div>
 

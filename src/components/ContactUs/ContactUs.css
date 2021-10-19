@@ -1,0 +1,17 @@
+.contact-banner {
+   
+    background-color: rgba(0, 0, 0, 0.658);
+    padding: 30px;
+    text-align: justify;
+}
+.btn-design{
+
+    border: 1px solid navy;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.btn-design:hover{
+    background-color: green;
+    color: azure;
+}
