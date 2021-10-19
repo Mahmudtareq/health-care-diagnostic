@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 const Login = () => {
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle, registerNewUser } = useAuth();
     return (
         <div>
             <div>
@@ -25,7 +25,7 @@ const Login = () => {
                 <br />
                 <input className="form-control w-25 mx-auto" type="password" name="" id="" placeholder="Password" />
                 <br />
-                <input className="form-control w-25 mx-auto bg-info" type="submit" value="Login" />
+                <input onClick={registerNewUser} className="form-control w-25 mx-auto bg-info" type="submit" value="Login" />
                 <br />
                 <div>
                     <p>For New User ? <NavLink to="/register">Create Account</NavLink></p>

@@ -2,28 +2,28 @@
     "employee": [
         {
             "name": "Dental Department",
-            "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+            "details": "Dentistry, also known as dental medicine and oral medicine, is a branch of medicine that consists of the study, diagnosis, !",
             "img": "https://i.ibb.co/P1PNzd0/Dentist-is-treating-male-patient-which-is-sitting-in-dental-chair.jpg",
             "id": "101",
             "phone": "01201567891"
         },
         {
             "name": "Cardiology",
-            "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+            "details": "Cardiology is a branch of medicine that deals with the disorders of the heart as well as some parts of the circulatory system",
             "img": "https://i.ibb.co/p41QqXF/patient-getting-heart-rate-monitored-with-electrocardiogram-equipment-cardiogram-test-Close-up-Of-Ec.jpg",
             "id": "102",
             "phone": "01234147891"
         },
         {
             "name": "Eye Department",
-            "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+            "details": "The study of medical conditions relating to the eye. Ophthalmologists are doctors who specialize in the medical and surgical treatment of this organ",
             "img": "https://i.ibb.co/mF70CHx/Attractive-female-doctor-ophthalmologist-is-checking-the-eye-vision-of-handsome-young-man-in-modern.jpg",
             "id": "103",
             "phone": "01234566991"
         },
         {
             "name": "Neurology Department",
-            "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+            "details": "Neurology is the branch of medicine concerned with the study and treatment of disorders of the nervous system",
             "img": "https://i.ibb.co/khh8pZy/At-doctors-appointment-physician-shows-to-patient-shape-of-brain-with-focus-on-hand-with-organ-Scene.jpg",
             "id": "104",
             "phone": "01234147891"
@@ -37,7 +37,7 @@
         },
         {
             "name": "Surgery Department",
-            "details": "There are many variations of lorem passagei of Lorem Ipsum available but the majority have",
+            "details": "Radiology is a medical specialty that uses imaging to diagnose and treat diseases seen within the body",
             "img": "https://i.ibb.co/C91QQ2k/Doctor-performing-eye-surgery-in-modern-clinic.jpg",
             "id": "106",
             "phone": "01234500891"

@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, createUserWithEmailAndPassword } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../components/Login/Firebase/firebase.init";
 
@@ -19,12 +19,14 @@ const useFirebase = () => {
             .finally(() => setIsLoading(false))
 
     }
+
     const logOut = () => {
         setIsLoading(true);
         signOut(auth)
             .then(() => { })
             .finally(() => setIsLoading(false));
     }
+
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
