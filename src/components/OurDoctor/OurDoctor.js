@@ -1,18 +1,29 @@
 
 import { Accordion } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import Doctors from '../Doctors/Doctors';
-
-
 
 const OurDoctor = () => {
 
     return (
-        <div className="container my-5">
+        <div className="">
+            <div>
+                <div className="contact-banner ">
+                    <div className="row">
+                        <div className="col-md-8">
+                            <h2 className="text-info my-3">Meet Our Doctors</h2>
+                            <h4 className="text-primary">Trust the professionals</h4>
 
-            <h2 className="text-primary">Meet Our Doctors</h2>
-            <p>Trust the professionals</p>
-            <div>----------------@-----------------</div>
-            <div className="doctors-container">
+                            <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                                Back To Home
+                            </NavLink>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div className="doctors-container container">
                 <Doctors></Doctors>
             </div>
 

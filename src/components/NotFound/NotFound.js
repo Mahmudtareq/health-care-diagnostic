@@ -1,14 +1,21 @@
 import React from 'react';
-import { Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import notfound from '../../image/notfound/notfound.png';
 
 const NotFound = () => {
     return (
         <div>
-            <img width="560px" src={notfound} alt="" />
-            <br />
-            <Nav.Link as={Link} to="/home">Home</Nav.Link>
+
+            <div>
+                <img width="560px" src={notfound} alt="" />
+
+            </div>
+            <div>
+                <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                    Back To Home
+                </NavLink>
+            </div>
+
         </div>
     );
 };

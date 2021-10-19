@@ -1,6 +1,8 @@
 import React from 'react';
 import MainServices from '../../MainServices/MainServices';
 import Banner from '../Banner/Banner';
+import './Home.css';
+import about7 from '../../../image/about/about7.jpg';
 
 const Home = () => {
     return (
@@ -47,6 +49,30 @@ const Home = () => {
                 </div>
 
 
+
+            </div>
+
+            <div className="my-5 container">
+                <div className="row mt-3">
+                    <div className="col-md-6">
+                        <img src={about7} alt="" />
+
+                    </div>
+                    <div className="col-md-6">
+                        <h2 className="text-info text-class mb-3">We Offer
+                            <br />
+                            <span className="text-dark">Fast and Reliable</span>
+                            <br />
+                            <span className="text-danger">Medical and HealthCare</span>
+                            <br />
+                            <span>Solutions to Our Patients</span>
+                        </h2>
+                        <p className="text-class">Pellentesque vitae ultrice posuere. Praesent justo laoret dignis ectus etiam ipsum habitant tristique nam est. Donec venentse euvarius cursus massa metus adipiscing ante. Nulla aculis. Donec lorem metus lobortis eu laci nid nec ipsum dignissim sed duil vamas.</p>
+
+
+                    </div>
+
+                </div>
 
             </div>
 

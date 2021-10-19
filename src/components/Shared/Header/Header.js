@@ -3,20 +3,15 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import logo from '../../../image/navlogo/logo.jpg';
 
 const Header = () => {
     const { user, logOut } = useAuth();
     return (
         <>
-            <Navbar bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
+            <Navbar className="p-3" bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home">
-                        <img src={logo} alt=""
-                            width="120"
-                            height="80"
-                            className="d-inline-block align-top"
-                        />
+                    <Navbar.Brand className="text-primary" href="#home">
+                        SAFE HOSPITAL
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
@@ -36,11 +31,6 @@ const Header = () => {
                             <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
-
-
-                    <Nav className="me-auto">
-
-                    </Nav>
                 </Container>
             </Navbar>
 

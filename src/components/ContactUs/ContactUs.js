@@ -18,19 +18,22 @@ const ContactUs = () => {
 
                 </div>
             </div>
+
             <div className="my-5">
                 <div className="container my-5  overflow-hidden">
                     <div className="row gy-5">
                         <div className="col-4">
-                            <div className="p-3 border bg-light">Plot 38, Street 39, UpHill Town,
-                                Newyork, USA</div>
+                            <div className="p-3 border bg-light">Plot 38, Street 39, Lakshmipur, Sadar, Lakshmipur
+                            </div>
                         </div>
                         <div className="col-4">
                             <div className="p-3 border bg-light">+522 234 5678
-                                890 (800) 126 58740</div>
+                                <br />
+
+                                +0088 126 58740</div>
                         </div>
                         <div className="col-4">
-                            <div className="p-3 border bg-light">info@healthcare-agency.org
+                            <div className="p-3 border bg-light">info@safehospital.org
                                 care@domain.com</div>
                         </div>
                     </div>

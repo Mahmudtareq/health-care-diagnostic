@@ -2,6 +2,7 @@ import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
 import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import depart1 from '../../image/depart/depart1.jpg';
 import depart2 from '../../image/depart/depart2.jpg';
 import depart3 from '../../image/depart/depart3.jpg';
@@ -25,10 +26,21 @@ const OurServices = () => {
 
     return (
         <div>
-            <div className="my-5">
-                <h2 className="text-success text-uppercase my-5">Show Details Our Services</h2>
+            <div className="">
+                <div className="contact-banner ">
+                    <div className="row">
+                        <div className="col-md-8">
+                            <h2 className="text-info my-3">Show Details Our Services</h2>
+                            <h4 className="text-primary">Hello. Welcome. Our Service .</h4>
 
-                <Container className="mx-auto">
+                            <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                                Back To Home
+                            </NavLink>
+                        </div>
+
+                    </div>
+                </div>
+                <Container className="mx-auto mt-5">
                     <Row>
                         <Col md={4}>
                             <Card>

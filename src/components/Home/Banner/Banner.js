@@ -1,9 +1,9 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import './Banner.css';
-import banner1 from '../../../image/banner/banner1.jpg';
+import banner4 from '../../../image/banner/banner4.jpg';
 import banner2 from '../../../image/banner/banner2.jpg';
-import banner3 from '../../../image/banner/banner3.jpg';
+import banner5 from '../../../image/banner/banner5.jpg';
 
 const Banner = () => {
     return (
@@ -12,7 +12,7 @@ const Banner = () => {
                 <Carousel.Item interval={1000}>
                     <img
                         className="d-block w-100"
-                        src={banner1}
+                        src={banner4}
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -45,7 +45,7 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src={banner3}
+                        src={banner5}
                         alt="Third slide"
                     />
                     <Carousel.Caption>
