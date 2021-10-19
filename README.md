@@ -4,34 +4,23 @@ This project was bootstrapped with [Create React App](https://github.com/Program
 
 ## About This Project 
 * This is a Hospital management System 
-* we are provided lot of services 
-** our service 
+## Technology Used in this project
+* React Js
+* Java Script
+* React Bootstrap
+* Firebase Authentication
+## our service 
 * Dental Department
 * Eye Department
 * Cardiology Department
-
-
-
-### `npm start`
-
-
-
-
-
-### `npm test`
-
-
-
+* Neurology Department
+* Surgery Department
+### `Hospital `
+* We provide Lot of Experience  Doctors
+* our Emergency Ambulance  service is available
 ### `Deployment`
 
 See the section about [deployment](https://tender-chandrasekhar-7b5c5e.netlify.app/) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-### Making a Progressive Web App
-
-### Advanced Configuration
 
 
