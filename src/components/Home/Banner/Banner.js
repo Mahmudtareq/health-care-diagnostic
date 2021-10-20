@@ -20,9 +20,9 @@ const Banner = () => {
                         <h3 className="text-info">Always We are try to provide our best service</h3>
                         <p>Not sure what is going on , Come in Today  for a Symptom Checkup ! </p>
                         <div className="">
-                            <button className="btn bg-info my-2 my-btn w-25">Contact Us </button>
+                            <button className="btn bg-info my-2 my-btn px-4">Contact Us </button>
 
-                            <button className="btn  ms-2 my-btn w-25">Learn More</button>
+                            <button className="btn  ms-2 my-btn px-4">Learn More</button>
 
                         </div>
 
@@ -40,9 +40,9 @@ const Banner = () => {
                         <h3 className="text-info">Always We are try to provide our best service</h3>
                         <p>Not sure what is going on , Come in Today  for a Symptom Checkup ! </p>
 
-                        <button className="btn my-2 bg-info my-btn w-25">Contact Us </button>
+                        <button className="btn my-2 bg-info my-btn px-4">Contact Us </button>
 
-                        <button className="btn  ms-2 my-btn w-25">Learn More</button>
+                        <button className="btn  ms-2 my-btn px-4">Learn More</button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -54,9 +54,9 @@ const Banner = () => {
                     <Carousel.Caption>
                         <h1 className="text-danger fs-900">Your Health Our First Priority</h1>
                         <p className="text-primary fw-900">We Serve Better Than Any Others</p>
-                        <button className="btn bg-info my-2 my-btn w-25">Contact Us </button>
+                        <button className="btn bg-info my-2 my-btn px-4">Contact Us </button>
 
-                        <button className="btn  ms-2 my-btn w-25">Learn More</button>
+                        <button className="btn  ms-2 my-btn px-4">Learn More</button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

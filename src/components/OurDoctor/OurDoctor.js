@@ -14,7 +14,7 @@ const OurDoctor = () => {
                             <h2 className="text-info my-3">Meet Our Doctors</h2>
                             <h4 className="text-primary">Trust the professionals</h4>
 
-                            <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                            <NavLink className="btn btn-outline-primary text-white my-3 px-4" to="/home">
                                 Back To Home
                             </NavLink>
                         </div>
@@ -73,16 +73,27 @@ const OurDoctor = () => {
                 <div className="my-5">
                     <h2 className="text-info my-4"> Book An Appointment </h2>
                     <div>
-                        <div className="mb-3 d-flex">
-                            <input type="text" className="form-control w-50" id="exampleFormControlInput1" placeholder="Enter Your Name" />
-                            <input type="email" className="form-control w-50 ms-2" id="exampleFormControlInput1" placeholder="Enter Your Email" />
-                            <input type="text" className="form-control w-50 ms-2" id="exampleFormControlInput1" placeholder="Enter Phone Number" />
+                        <div className="mb-3">
+                            <div className="row">
+                                <div className="col-lg-4 col-12 mb-2">
+                                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name" />
+                                </div>
+                                <div className="col-lg-4 col-12 mb-2">
+                                    <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email" />
+
+                                </div>
+                                <div className="col-lg-4 col-12">
+                                    <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Enter Phone Number" />
+
+                                </div>
+
+                            </div>
                         </div>
 
-                        <div className="my-5">
-                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Write About Your Problem"></textarea>
+                        <div className="my-3">
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Write About Your Problem"></textarea>
                         </div>
-                        <button className="btn btn-info w-25">Submit</button>
+                        <button className="btn btn-info">Submit From</button>
                     </div>
                 </div>
             </div>

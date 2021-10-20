@@ -1,4 +1,3 @@
-// Rowimport React from 'react';
 import { Card, Row } from 'react-bootstrap';
 const Doctor = (props) => {
     const { name, img, specialist, title } = props.item;

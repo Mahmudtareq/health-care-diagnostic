@@ -12,7 +12,7 @@ const MainServices = () => {
     return (
         <div>
             <div>
-                <h2 className="text-info">Our Service</h2>
+                <h2 className="text-info">Our <span className="text-primary">Services</span> </h2>
             </div>
             <div className="service-container">
                 {

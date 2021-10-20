@@ -11,8 +11,8 @@ const ContactUs = () => {
                         <h2 className="text-info my-3">CONTACT US</h2>
                         <h4 className="text-primary">Hello. Welcome. What a pleasure it is to have you.</h4>
 
-                        <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
-                            Home
+                        <NavLink className="btn btn-outline-primary px-5 text-white my-3" to="/home">
+                            Back To Home
                         </NavLink>
                     </div>
 
@@ -22,18 +22,18 @@ const ContactUs = () => {
             <div className="my-5">
                 <div className="container my-5  overflow-hidden">
                     <div className="row gy-5">
-                        <div className="col-4">
-                            <div className="p-3 border bg-light">Plot 38, Street 39, Lakshmipur, Sadar, Lakshmipur
+                        <div className="col-lg-4 col-12 ">
+                            <div className="p-3 border bg-info rounded">Plot 38, Street 39, Lakshmipur, Sadar, Lakshmipur
                             </div>
                         </div>
-                        <div className="col-4">
-                            <div className="p-3 border bg-light">+522 234 5678
+                        <div className="col-lg-4 col-12">
+                            <div className="p-3 border bg-primary rounded">+522 234 5678
                                 <br />
 
                                 +0088 126 58740</div>
                         </div>
-                        <div className="col-4">
-                            <div className="p-3 border bg-light">info@safehospital.org
+                        <div className="col-lg-4 col-12">
+                            <div className="p-3 border bg-success rounded ">info@safehospital.org
                                 care@domain.com</div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@ const ContactUs = () => {
                         <textarea className="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="YOUR MESSAGE"></textarea>
                     </div>
                     <div>
-                        <button className="btn btn-design w-25">SEND MESSAGE</button>
+                        <button className="btn btn-primary ">SEND MESSAGE</button>
                     </div>
                 </div>
 

@@ -16,7 +16,7 @@ const Login = () => {
                         <div className="col-md-8">
                             <h2 className="text-info my-3">Login From</h2>
                             <h4 className="text-primary">To Take our Service Please Sign In</h4>
-                            <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                            <NavLink className="btn btn-outline-primary px-4 text-white my-3" to="/home">
                                 Back To Home
                             </NavLink>
                         </div>

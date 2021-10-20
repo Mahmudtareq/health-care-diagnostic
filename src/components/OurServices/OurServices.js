@@ -31,43 +31,47 @@ const OurServices = () => {
                     <div className="row">
                         <div className="col-md-8">
                             <h2 className="text-info my-3">Show Details Our Services</h2>
-                            <h4 className="text-primary">Hello. Welcome. Our Service .</h4>
+                            <h4 className="text-primary">Hello Welcome Our Service !</h4>
 
-                            <NavLink className="btn btn-outline-primary w-25 text-white my-3" to="/home">
+                            <NavLink className="btn btn-outline-primary px-4 text-white my-3" to="/home">
                                 Back To Home
                             </NavLink>
                         </div>
 
                     </div>
                 </div>
-                <Container className="mx-auto mt-5">
-                    <Row>
-                        <Col md={4}>
-                            <Card>
-                                <Card.Img className="" variant="top" src={singleService?.img} />
-                            </Card>
-                        </Col>
-                        <Col md={5}>
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Body>
-                                    <Card.Title>{singleService?.name}</Card.Title>
-                                    <Card.Text>
-                                        {singleService?.details}
-                                    </Card.Text>
-                                    <p className="text-info">Contact : {singleService?.phone}</p>
-                                    <Button className=" btn btn-outline-primary">More....</Button>
-                                </Card.Body>
-                            </Card>
-                        </Col>
-                    </Row>
-                </Container>
+                <div className="container">
+                    <Container className=" mt-5">
+                        <Row>
+                            <Col md={4}>
+                                <Card>
+                                    <Card.Img className="" variant="top" src={singleService?.img} />
+                                </Card>
+                            </Col>
+                            <Col md={5}>
+                                <Card style={{ width: '18rem' }}>
+                                    <Card.Body>
+                                        <Card.Title>{singleService?.name}</Card.Title>
+                                        <Card.Text>
+                                            {singleService?.details}
+                                        </Card.Text>
+                                        <p className="text-info">Contact : {singleService?.phone}</p>
+                                        <Button className=" btn btn-outline-primary">More....</Button>
+                                    </Card.Body>
+                                </Card>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                </div>
+
             </div>
             <div className="container my-5">
 
                 <h2 className="text-info my-5">DEPARTMENTS</h2>
                 <CardGroup >
                     <Card className="m-2">
-                        <Card.Img variant="top" src={depart1} />
+                        <Card.Img variant="top" className="img-fluid" src={depart1} />
                         <Card.Body>
                             <Card.Title>Cancer Oncology</Card.Title>
                             <Card.Text>
