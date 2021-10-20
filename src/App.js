@@ -14,8 +14,6 @@ import ContactUs from './components/ContactUs/ContactUs';
 import PrivateRoute from './components/Login/PrivateRoute/PrivateRoute';
 import Register from './components/Doctors/Register/Register';
 import Footer from './components/Footer/Footer';
-
-
 function App() {
   return (
     <div className="App">
@@ -26,7 +24,7 @@ function App() {
             <Router exact path="/">
               <Home></Home>
             </Router>
-            <Route path="/home">
+            <Route exact path="/home">
               <Home></Home>
             </Route>
             <Route exact path="/aboutus">
@@ -38,7 +36,6 @@ function App() {
             <Route path="/contact">
               <ContactUs></ContactUs>
             </Route>
-
             <Route path="/login">
               <Login></Login>
             </Route>
@@ -51,7 +48,6 @@ function App() {
             <Router exact path="*">
               <NotFound></NotFound>
             </Router>
-
           </Switch>
           <Footer></Footer>
         </Router>

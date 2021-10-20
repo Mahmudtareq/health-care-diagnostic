@@ -21,7 +21,7 @@ const Footer = () => {
                                 </div>
                                 <p className="mt-2 ">
                                     <small>
-                                        We Providing Life Changing Experiences Through Education. Class That Fit Your Busy Life. Closer to Home
+                                        We  always try to Providing our best service for any kind of situation .We try to Provide World Class Service
                                     </small>
                                 </p>
                                 <p className="">

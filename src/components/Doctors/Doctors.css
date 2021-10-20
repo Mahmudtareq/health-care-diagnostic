@@ -3,3 +3,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 14px;
 }
+
+@media screen and (max-width: 480px) {
+    .doctor-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }

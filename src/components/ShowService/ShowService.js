@@ -14,8 +14,7 @@ const ShowService = (props) => {
                 <Card.Img variant="top" className="img-fluid" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
-                    <Card.Title>Id Num:{id}</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="text-start">
                         {details}
                     </Card.Text>
                 </Card.Body>
