@@ -7,9 +7,9 @@ import banner5 from '../../../image/banner/banner5.jpg';
 
 const Banner = () => {
     return (
-        <div>
+        <div className="">
             <Carousel>
-                <Carousel.Item interval={1000}>
+                <Carousel.Item interval={500}>
                     <img
                         className="d-block w-100"
                         src={banner4}
@@ -19,10 +19,13 @@ const Banner = () => {
                         <h1 className="text-danger bg-info p-2">Your Health Our First Priority</h1>
                         <h3 className="text-info">Always We are try to provide our best service</h3>
                         <p>Not sure what is going on , Come in Today  for a Symptom Checkup ! </p>
-                        <button className="btn bg-info my-2 my-btn w-25">Contact Us </button>
+                        <div className="">
+                            <button className="btn bg-info my-2 my-btn w-25">Contact Us </button>
 
-                        <button className="btn  ms-2 
-                          my-btn w-25">Learn More</button>
+                            <button className="btn  ms-2 my-btn w-25">Learn More</button>
+
+                        </div>
+
 
                     </Carousel.Caption>
                 </Carousel.Item>

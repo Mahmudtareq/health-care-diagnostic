@@ -4,11 +4,15 @@
      background-size: 100vh;
     width:100%;
     background-position: 100%;
-   
 }
-.text-section{
-    text-align: justify;
-    align-items: center;
-    justify-content: center;
-
+.btn-text{
+    border: 1px solid rgb(8, 155, 240);
+    border-radius: 18px;
+    background-color: rgb(110, 110, 236);
+    padding: 10px 15px;
+    color: white;
+}
+.btn-text:hover{
+    background-color: aqua;
+    transition:cubic-bezier(0.165, 0.84, 0.44, 1);
 }
