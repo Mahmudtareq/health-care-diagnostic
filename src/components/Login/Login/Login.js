@@ -1,8 +1,13 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { } from "@fortawesome/free-solid-svg-icons";
+import { faGoogle } from '@fortawesome/free-brands-svg-icons';
 const Login = () => {
-    const { signInWithGoogle, registerNewUser } = useAuth();
+    const { signInWithGoogle, handleRegistration, handleEmailChange, handlePasswordChange, error, toggleLogin, isLogin } = useAuth();
+
+
     return (
         <div>
             <div>
@@ -20,20 +25,36 @@ const Login = () => {
                 </div>
             </div>
             <div className="my-5">
-                <h2 className="mb-3 text-info">Sign In Please</h2>
-                <input className="form-control w-25 mx-auto" type="email" name="" id="" placeholder="Email" />
-                <br />
-                <input className="form-control w-25 mx-auto" type="password" name="" id="" placeholder="Password" />
-                <br />
-                <input onClick={registerNewUser} className="form-control w-25 mx-auto bg-info" type="submit" value="Login" />
+                <from>
+                    <h2 className="mb-3 text-info">Please {isLogin ? 'Login' : 'Register'}</h2>
+                    <input className="form-control w-25 mx-auto" type="email" onBlur={handleEmailChange} name="" id="" placeholder="Email" required />
+                    <br />
+                    <input className="form-control w-25 mx-auto" type="password" onBlur={handlePasswordChange} name="" id="" placeholder="Password" required />
+                    <br />
+                    <input onChange={toggleLogin} className="form-check-input me-2" type="checkbox" value="" id="flexCheckChecked" />
+                    <label class="form-check-label" htmlFor="flexCheckChecked">
+                        Already Registered ?
+                    </label>
+                    <span className="ms-2 text-danger">For New User ? <NavLink to="/register">Create Account</NavLink></span>
+
+                    <br />
+                    <input onClick={handleRegistration} className="form-control w-25 mx-auto mt-3 bg-info" type="submit" value={isLogin ? 'Login' : "Register"} />
+
+                    <div className="text-danger">
+                        {error}
+                    </div>
+                </from>
+
+
                 <br />
                 <div>
-                    <p>For New User ? <NavLink to="/register">Create Account</NavLink></p>
+
                 </div>
-                <button onClick={signInWithGoogle} className=" w-25 mx-auto btn bg-primary">Google LogIn</button>
+
+                <button onClick={signInWithGoogle} className=" w-25 mx-auto btn bg-primary"><span className="text-danger me-3
+                "><FontAwesomeIcon icon={faGoogle} /></span>   Google LogIn</button>
 
             </div>
-
 
         </div>
     );
